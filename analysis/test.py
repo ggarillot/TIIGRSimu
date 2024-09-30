@@ -37,7 +37,7 @@ def returnRatio(fileName):
 
 if __name__ == "__main__":
 
-    energy = 218
+    energy = 440
     xo3 = 3.0
 
     histo2D = R.TH2D(

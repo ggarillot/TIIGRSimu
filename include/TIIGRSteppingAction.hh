@@ -39,7 +39,7 @@ class RootWriter;
 class TIIGRSteppingAction : public G4UserSteppingAction
 {
   public:
-    TIIGRSteppingAction(TIIGREventAction* fEventAction, RootWriter* rootWriter);
+    TIIGRSteppingAction(TIIGREventAction* eventAction, RootWriter* rootWriter);
     virtual ~TIIGRSteppingAction() = default;
 
     virtual void UserSteppingAction(const G4Step* step);

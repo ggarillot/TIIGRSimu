@@ -12,7 +12,9 @@ bin/
 build/
 lib/
 results/
+plots/
 
 user.properties
+run.mac
 
 !CMakeLists.txt

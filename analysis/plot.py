@@ -102,9 +102,9 @@ def returnCanvas(fileName, energy):
 
 if __name__ == "__main__":
 
-    energy = 440
-    xo1 = 0.2
-    xo2 = 0.2
+    energy = 218
+    xo1 = 0.25
+    xo2 = 0.25
     xo3 = 3.0
 
     fileName = f"results/{energy}_{xo1:.2f}_{xo2:.2f}_{xo3:.2f}.root"

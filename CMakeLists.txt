@@ -6,7 +6,7 @@ set(CMAKE_CXX_STANDARD 17)
 set(CMAKE_CXX_STANDARD_REQUIRED ON)
 
 # Find Geant4 package and include necessary directories and definitions
-find_package(Geant4 REQUIRED)
+find_package(Geant4 REQUIRED ui_all vis_all)
 include(${Geant4_USE_FILE})
 include_directories(SYSTEM ${Geant4_INCLUDE_DIRS})
 
