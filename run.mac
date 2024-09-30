@@ -1,0 +1,13 @@
+
+/TIIGR/det/det0 1.00
+/TIIGR/det/det1 1.00
+/TIIGR/det/det2 3.00
+
+/run/numberOfThreads 8
+
+/output/fileName 440_1.00_1.00_3.00.root
+
+/run/initialize
+/gun/energy 440 keV
+
+/run/beamOn  100000   

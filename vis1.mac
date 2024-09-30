@@ -1,0 +1,19 @@
+/control/verbose 1
+/run/verbose 1
+
+/run/initialize
+/vis/open TSG_QT_ZB 600x600-0+0
+/vis/viewer/set/autoRefresh false
+/vis/verbose errors
+/vis/drawVolume
+/vis/viewer/set/viewpointVector 0 1 1
+
+/vis/scene/add/axes
+/vis/scene/add/trajectories smooth
+
+/vis/modeling/trajectories/create/drawByParticleID
+
+/vis/scene/endOfEventAction accumulate
+
+/vis/viewer/set/autoRefresh true
+/vis/verbose warnings
